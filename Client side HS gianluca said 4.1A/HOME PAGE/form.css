@@ -1,0 +1,74 @@
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+
+  #title{
+    height: 2%;
+  }
+
+  #receiveInfo{
+    height: 2%;
+  }
+
+  .needs-validation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .needs-validation h1 {
+    margin-bottom: 20px;
+  }
+  
+  .needs-validation .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .needs-validation label {
+    font-weight: bold;
+  }
+  
+  .needs-validation input[type="text"],
+  .needs-validation input[type="password"],
+  .needs-validation textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .needs-validation select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('down-arrow.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-color: #fff;
+  }
+  
+  .needs-validation textarea {
+    height: 100px;
+  }
+  
+  .needs-validation .invalid-feedback {
+    color: red;
+  }
+  
+  .needs-validation .btn-primary {
+    margin-top: 20px;
+  }
+  

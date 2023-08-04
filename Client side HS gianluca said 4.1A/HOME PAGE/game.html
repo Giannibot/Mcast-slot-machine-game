@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Fruity Slot Machine </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Fruity</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a id="homeLink" class="nav-link" href="main.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="gameLink" class="nav-link" href="game.html">Game</a>
+        </li>
+        <li class="nav-item">
+          <a id="signupLink" class="nav-link" href="form.html">Signup</a>
+        </li>
+        <li class="nav-item">
+          <a id="loginLink" class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <h1 class="mt-4"> Fruity</h1>
+    <div class="slot-machine">
+      <div class="row">
+        <div class="col-4">
+          <img id="slot1" src="Game/images/cherry.jpg" alt="Slot 1" class="img-fluid">
+        </div>
+        <div class="col-4">
+          <img id="slot2" src="Game/images/lemon.jpg" alt="Slot 2" class="img-fluid">
+        </div>
+        <div class="col-4">
+          <img id="slot3" src="Game/images/orange.jpg" alt="Slot 3" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-4">
+          <button class="btn btn-primary" onclick="spin()">Spin</button>
+          <button type="button" class="btn btn-primary" onclick="backMain()">Back to home</button>
+          <div id="result"></div> <!-- Add this line -->
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
